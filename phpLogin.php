@@ -18,7 +18,7 @@ else{
     {
         echo "Login success!<br>";
         $row = mysqli_fetch_assoc(mysqli_query($conn,$sql));
-        echo 'Welcome '. $row['first_name'] . " " . $row['last_name'];
+        echo 'Welcome '. $row['first_Name'] . " " . $row['last_Name'];
     
         //header("location:homepage.html");
     }
