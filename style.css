@@ -150,11 +150,11 @@ button:hover {
 }
 
 .requirement-list li {
-  font-size: 1.3rem;
+  font-size: 1rem;
   list-style: none;
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .requirement-list li i {
@@ -169,7 +169,7 @@ button:hover {
 }
 
 .requirement-list li span {
-  margin-left: 12px;
+  margin-left: 5px;
   color: #999;
 }
 
