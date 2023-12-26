@@ -17,7 +17,7 @@ else{
     $sql = "INSERT INTO user (first_Name,last_Name,email,password) VALUES ('$FirstName','$LastName','$Email','$Password');";
     if(mysqli_query($conn,$sql))
     {
-        echo "Sign Up Complete";
+        header("Location: login.html");
     }
     else{
         echo "Sign Up Failed!";
