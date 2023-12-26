@@ -26,7 +26,8 @@
         <label>Enter your email</label>
       </div>
       <div class="input-field">
-        <input type="password" class="passF" name="Password" id="pass" onfocus="document.getElementsByClassName('crit')[0].style.display='block'" onblur="document.getElementsByClassName('crit')[0].style.display='none'" required>
+        <input type="password" class="passF" name="Password" id="pass" onfocus="showRequirements()"
+          onblur="hideRequirements()" required>
         <label>Enter your password</label>
         <i class="fa-solid fa-eye"></i>
         <small id="passwordError" style="display: none;"></small>
@@ -65,6 +66,8 @@
     </form>
   </div>
   <script src="validator.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </body>
 
 </html>

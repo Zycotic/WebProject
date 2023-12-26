@@ -36,3 +36,12 @@ eyeIcon.addEventListener("click", () => {
     // Update the eye icon class based on the password input type
     eyeIcon.className = `fa-solid fa-eye${passwordInput.type === "password" ? "" : "-slash"}`;
 });
+
+
+function showRequirements() {
+    $('.crit').stop(true, true).fadeIn(1000); // Show requirements with fade in effect over 200 milliseconds
+}
+
+function hideRequirements() {
+    $('.crit').stop(true, true).fadeOut(500); // Hide requirements with fade out effect over 200 milliseconds
+}
