@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.navbar {
+    background-color: white;
+}
+
+.title {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+}
+
+@media (max-width:991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+body {
+    background-color: white;
+}
+
+/* 
+.hero-section {
+    background-color: #1C243C;
+    background-image: url('./images/andrew-ng.png'), url('./images/solar-pattern.png');
+    background-size: 120vh, cover;
+    background-position: 50vw, center;
+    background-repeat: no-repeat;
+    height: 100vh;
+} */
+
+.hero-section {
+    /* background-color: rgb(231, 167, 3); */
+    background-image: url('./images/woman-working-illustration.png');
+    background-size: 90vh;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+.hero-text {
+    padding: 20vh;
+    color: black;
+
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+
+}
+
+/* button1 css */
+.btn1 {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    margin-right: 2vw;
+}
+
+.btn1:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn1:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn1::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn1::after {
+    background-color: #fff;
+}
+
+.btn1:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+/* button2 css */
+.btn2 {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: white;
+    background-color: #4c94f9;
+}
+
+.btn2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn2:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn2::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn2::after {
+    background-color: #4c94f9;
+}
+
+.btn2:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
+
+/* waves */
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(60deg,
+            rgba(84, 58, 183, 1) 0%,
+            rgba(0, 172, 193, 1) 100%);
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    fill: white;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inner-header {
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+}
+
+
+.about {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+/* about card */
+
+
+
+.circle {
+    width: 70px;
+    height: 70px;
+    background: radial-gradient(#b0e633, #53ef7d);
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.intro-section {
+    /* background: rgba(0, 0, 255, .05); */
+    /* background: rgba(0, 255, 255, .05); */
+    /* backdrop-filter: blur(10px); */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
