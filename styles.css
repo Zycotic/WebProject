@@ -213,17 +213,6 @@ p {
 
 /* about card */
 
-
-
-.circle {
-    width: 70px;
-    height: 70px;
-    background: radial-gradient(#b0e633, #53ef7d);
-    border-radius: 50%;
-    position: absolute;
-    animation: move-up6 2s ease-in infinite alternate-reverse;
-}
-
 .intro-section {
     /* background: rgba(0, 0, 255, .05); */
     /* background: rgba(0, 255, 255, .05); */
@@ -234,4 +223,39 @@ p {
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* golden line button */
+.gold-line-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    /* Set the text color */
+}
+
+.gold-line-button::after {
+    content: '\2192';
+    /* Unicode character for right arrow */
+    position: absolute;
+    right: -10px;
+    /* Adjust as needed to control the spacing between text and arrow */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffd700;
+    /* Set the arrow color to gold */
+    font-size: 4vh;
+}
+
+.gold-line-button:hover {
+    border-bottom: 2px solid #ffd700;
+    /* Add the gold line on hover */
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
 }
