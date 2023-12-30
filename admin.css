@@ -1,0 +1,107 @@
+/* Basics */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+}
+
+body {
+    background-color: #310065;
+    overflow: hidden;
+}
+
+/* Color Variables */
+.sidebar-navigation {
+    display: inline-block;
+    min-height: 100vh;
+    width: 70px;
+    background-color: #313442;
+    float: left;
+}
+
+.sidebar-navigation .sidebar-logo {
+    display: block;
+    margin: 20px auto;
+    /* Adjust margin to position the logo */
+    width: 50px;
+    /* Set the width of your logo */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+
+.sidebar-navigation ul {
+    text-align: center;
+    color: white;
+    padding-left: 0;
+}
+
+.sidebar-navigation ul li {
+    padding: 28px 0;
+    margin: 15px 0;
+    cursor: pointer;
+    transition: all ease-out 120ms;
+}
+
+.sidebar-navigation ul li i {
+    display: block;
+    font-size: 24px;
+    transition: all ease 450ms;
+}
+
+.sidebar-navigation ul li .tooltip {
+    display: inline-block;
+    position: absolute;
+    background-color: #313443;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-top: -26px;
+    left: 90px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 13px;
+    letter-spacing: .5px;
+}
+
+.sidebar-navigation ul li:hover {
+    background-image: linear-gradient(90deg, #780cfb, #7300ff, #4f49ff, #312afb);
+    filter: saturate(70%);
+    border-radius: 15px;
+}
+
+.sidebar-navigation ul li:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Active effect */
+.sidebar-navigation ul li.active {
+    background-image: linear-gradient(90deg, #780cfb, #7300ff, #4f49ff, #312afb);
+    filter: saturate(120%);
+    border-left: 3px solid white;
+    border-radius: 15px;
+}
+
+/* For the active icon */
+.sidebar-navigation ul li.active i {
+    background-image: linear-gradient(90deg, #ffe946, #ffe946, #ffe946, #ffc227, #c9963e, #c5a46c);
+    background-clip: text;
+    color: transparent;
+}
+
+.sidebar-item .cog-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-item.active .cog-icon,
+.sidebar-item.active-hover .cog-icon {
+    animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
