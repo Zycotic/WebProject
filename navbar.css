@@ -48,6 +48,10 @@ nav ul li a:hover::after {
 .title {
     font-family: 'Russo One', sans-serif;
     letter-spacing: 2px;
+<<<<<<< HEAD
+=======
+    color: white;
+>>>>>>> bc94285f51b5996bc109e06283a82454c5b2f4fb
 }
 
 @media (max-width:991px) {

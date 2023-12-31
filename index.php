@@ -52,7 +52,11 @@ session_start();
                             <a class="nav-link" href="#events">Events</a>
                         </li>
                         <li class="nav-item mx-2">
+<<<<<<< HEAD
                             <a class="nav-link" href="#contact">Contact</a>
+=======
+                            <a class="nav-link" href="contact-us.html">Contact</a>
+>>>>>>> bc94285f51b5996bc109e06283a82454c5b2f4fb
                         </li>
                     </ul>
                     <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
