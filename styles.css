@@ -266,16 +266,18 @@ hr.rounded {
 } */
 
 .counter-wrapper {
-    background: url(/images/19742.jpg);
+    /* background: url(/images/19742.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 1.5rem;
-    padding: 10rem 9%;
-    margin-top: 5rem;
+    grid-column-gap: 1rem;
+    padding: 6rem 8%;
+    margin-top: 1rem;
     position: relative;
+    align-items: center;
+    justify-items: center;
 }
 
 .counter-wrapper::before {
@@ -286,7 +288,7 @@ hr.rounded {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.04);
     z-index: 1;
 }
 
@@ -350,3 +352,69 @@ hr.rounded {
         grid-template-columns: 1fr;
     }
 }
+
+.counter-wrapper .img {
+    display: flex;
+    position: absolute;
+    z-index: -2;
+    opacity: .7;
+}
+
+/* the 3 circles in the counter section */
+/* .circle {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    filter: blur(60px);
+    padding-top: 60vh;
+}
+
+.circlebg {
+    display: flex;
+    position: absolute;
+    z-index: -2;
+    opacity: .7;
+}
+
+.circle-yellow {
+    background-color: #ffd700;
+  
+    transform: translateX(10%);
+}
+
+
+.circle-red {
+    background: red;
+    transform: translateX(230%);
+}
+
+.circle-blue {
+    background-color: blue;
+    transform: translateX(150%);
+}
+
+.circle-green {
+    background-color: green;
+    transform: translateX(190%);
+}
+
+.circle-yellow {
+    background-color: yellow;
+    transform: translateX(80%);
+} */
+
+/* the moving image effect in the background */
+/* .cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.9)), url(./images/cta-bg.jpg) fixed center center;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.9)), url(../images/cta-bg.jpg);
+    background-position-x: initial, center;
+    background-position-y: initial, center;
+    background-size: initial, initial;
+    background-repeat: initial, initial;
+    background-attachment: initial, fixed;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+    background-size: cover;
+    padding: 60px 0;
+} */
