@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,13 +40,16 @@
                     <ul
                         class="navbar-nav justify-content-center justify-content-lg-end align-items-center fs-5 flex-grow-1 pe-3">
                         <li class="nav-item mx-2">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item mx-2">
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a class="nav-link" href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#events">Events</a>
                         </li>
                         <li class="nav-item mx-2">
                             <a class="nav-link" href="#contact">Contact</a>
@@ -115,7 +122,7 @@
         </section>
         <!-- about end -->
         <!-- events and news start -->
-        <section>
+        <section id="events">
             <div class="container mt-4 mb-5 px-5">
                 <div class="row">
 
@@ -312,8 +319,8 @@
                 <h1 class="count" style="font-size: 5rem;" data-target="732">0</h1>
                 <p>Girls Enrolled</p>
             </div>
-            <div style="position: absolute; z-index: -1; opacity: 0.1;">
-                <img src=" ./images/logo.png">
+            <div style="position: absolute; z-index: -1; opacity: 0.3;">
+                <img src="images/logo.png">
             </div>
         </div>
         <!-- counter section end -->
@@ -328,7 +335,7 @@
 
                         <div class="rounded-circle bg-dark shadow d-flex align-items-center justify-content-center mb-2 mx-auto"
                             style="width: 150px; height: 150px;">
-                            <img src="/images/logo.png" height="100" alt="" loading="lazy">
+                            <img src="images/logo.png" height="100" alt="" loading="lazy">
                         </div>
                         <div class="mb-4" style="text-align: center;">
                             <a class="navbar-brand title text-white" href="#">BYTE TUTORIAL</a>
