@@ -297,6 +297,7 @@ hr.rounded {
     color: #000000;
     z-index: 2;
     position: relative;
+    justify-content: center;
 }
 
 .counter::before {
@@ -353,7 +354,7 @@ hr.rounded {
     }
 }
 
-.counter-wrapper .img {
+.counter-wrapper img {
     display: flex;
     position: absolute;
     z-index: -2;

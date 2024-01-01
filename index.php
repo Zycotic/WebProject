@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="team.css">
+
 </head>
 
 <body class="data-mdb-smooth-scroll-init">
@@ -314,8 +316,6 @@
                     </div>
                 </div>
             </div>
-
-
         </section>
         <!-- our key activites end -->
         <!-- counter section start -->
@@ -346,6 +346,61 @@
             </div>
         </div>
         <!-- counter section end -->
+        <!-- team start -->
+        <section style="height: 40vh;" class="d-flex justify-content-between p-4">
+            <div class="container1 row">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+                <input type="radio" name="slider" id="item-4">
+
+                <div class="cards">
+                    <label class="card d-flex justify-content-center align-items-center" for="item-1" id="song-1">
+                        <img src=" images\Allam.jpeg" alt="song">
+                    </label>
+                    <label class="card d-flex justify-content-center align-items-center" for="item-2" id="song-2">
+                        <img src=" images\Moataz.jpeg" alt="song">
+                    </label>
+                    <label class="card d-flex justify-content-center align-items-center" for="item-3" id="song-3">
+                        <img src=" images\Muhammad.jpeg" alt="song">
+                    </label>
+                    <label class="card d-flex justify-content-center align-items-center" for="item-4" id="song-4">
+                        <img src="images\Moharrum1.png" alt="song">
+                    </label>
+                </div>
+                <div class="player px-5">
+                    <div class="upper-part" style="height: 38px;">
+                        <div class="info-area" id="test">
+                            <label class="song-info" id="song-info-1">
+                                <div class="title1">Allam</div>
+                                <div class="sub-line">
+                                    <div class="subtitle">Big Boss</div>
+                                </div>
+                            </label>
+                            <label class="song-info" id="song-info-2">
+                                <div class="title1">Moataz</div>
+                                <div class="sub-line">
+                                    <div class="subtitle">Software Engineer</div>
+                                </div>
+                            </label>
+                            <label class="song-info" id="song-info-3">
+                                <div class="title1">Muhammad</div>
+                                <div class="sub-line">
+                                    <div class="subtitle">Data Scientist</div>
+                                </div>
+                            </label>
+                            <label class="song-info" id="song-info-4">
+                                <div class="title1">Moharrum</div>
+                                <div class="sub-line">
+                                    <div class="subtitle">Business Developer</div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- team end -->
         <!-- footer start -->
         <footer class="bg-dark text-center text-lg-start text-white shadow rounded-top-4">
             <!-- Grid container -->
@@ -497,6 +552,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
         </script>
+    <script>
+        $('input').on('change', function () {
+            $('body').toggleClass('blue');
+        });
+
+        // JavaScript code goes here
+    </script>
 </body>
 
 

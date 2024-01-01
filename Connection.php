@@ -5,6 +5,6 @@ $user = "root";
 $pass = "";
 $dbname = "project";
 
-$conn = mysqli_connect($server,$user,$pass,$dbname);
+$conn = mysqli_connect($server,$user,$pass,$dbname,3308);
 
 ?>
