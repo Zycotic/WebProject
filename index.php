@@ -402,148 +402,138 @@
         </section>
         <!-- footer start -->
         <footer class="bg-dark text-center text-lg-start text-white shadow rounded-top-4">
-            <!-- Grid container -->
-            <div class="container p-4">
-                <!--Grid row-->
-                <div class="row my-4">
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row my-4">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 
-                        <div class="rounded-circle bg-dark shadow d-flex align-items-center justify-content-center mb-2 mx-auto"
-                            style="width: 150px; height: 150px;">
-                            <img src="images/logo.png" height="100" alt="" loading="lazy">
-                        </div>
-                        <div class="mb-4" style="text-align: center;">
-                            <a class="navbar-brand title text-white" href="#">BYTE TUTORIAL</a>
-                        </div>
-
-
-                        <p class="text-center text-white">Homless animal shelter The budgetary unit of the Capital City
-                            of
-                            Warsaw</p>
-
-                        <ul class="list-unstyled d-flex flex-row justify-content-center">
-                            <li>
-                                <a class="text-white px-2" href="#!">
-                                    <i class="fab fa-facebook-square"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white px-2" href="#!">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white ps-2" href="#!">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </li>
-                        </ul>
-
+                    <div class="rounded-circle bg-dark shadow d-flex align-items-center justify-content-center mb-2 mx-auto"
+                        style="width: 150px; height: 150px;">
+                        <img src="images/logo.png" height="100" alt="" loading="lazy">
                     </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">Animals</h5>
-
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>When your pet is
-                                    missing</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>Recently found</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>How to adopt?</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>Pets for adoption</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>Material gifts</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>Help with walks</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>Volunteer
-                                    activities</a>
-                            </li>
-                        </ul>
+                    <div class="mb-4" style="text-align: center;">
+                        <a class="navbar-brand title text-white" href="#">BYTE TUTORIAL</a>
                     </div>
-                    <!--Grid column-->
 
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">Animals</h5>
 
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>General
-                                    information</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>About the
-                                    shelter</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>Statistic
-                                    data</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>Job</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>Tenders</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                        style="color:rgb(236, 175, 8)"></i>Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
+                    <p class="text-center text-white">Online platform for learning and growth</p>
 
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">Contact</h5>
+                    <ul class="list-unstyled d-flex flex-row justify-content-center">
+                        <li>
+                            <a class="text-white px-2" href="#!">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white px-2" href="#!">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white ps-2" href="#!">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
 
-                        <ul class="list-unstyled">
-                            <li>
-                                <p class="text-white"><i class="fas fa-map-marker-alt pe-2 "
-                                        style="color:rgb(236, 175, 8)"></i>Warsaw, 57
-                                    Street, Poland</p>
-                            </li>
-                            <li>
-                                <p class="text-white"><i class="fas fa-phone pe-2 " style="color:rgb(236, 175, 8)"></i>+
-                                    01 234 567 89</p>
-                            </li>
-                            <li>
-                                <p class="text-white"><i class="fas fa-envelope pe-2 mb-0 "
-                                        style="color:rgb(236, 175, 8)"></i>contact@example.com</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
                 </div>
-                <!--Grid row-->
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Resources</h5>
+
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="index.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Don't know where to start? Click Here!</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="courses.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Popular courses</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="phpSignUp.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Sign up to get access to a wealth of knowledge!</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://www.libgen.is/" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Additional resources</a>
+                        </li>
+        
+                        <li class="mb-2">
+                            <a href="https://stackoverflow.com/" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Help with errors</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://www.kaggle.com/" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Datasets</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Contacts</h5>
+
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="index.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Legal</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>About Byte Tutorial</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Stats for nerds</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="phpSignUp.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Want to work with us? Click here!</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://www.buymeacoffee.com/" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Buy us a coffee!</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="contact-us.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Find us!</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p class="text-white"><i class="fas fa-map-marker-alt pe-2 "
+                                    style="color:rgb(236, 175, 8)"></i>Warsaw, 57
+                                Street, Poland</p>
+                        </li>
+                        <li>
+                            <p class="text-white"><i class="fas fa-phone pe-2 " style="color:rgb(236, 175, 8)"></i>+
+                                01 234 567 89</p>
+                        </li>
+                        <li>
+                            <p class="text-white"><i class="fas fa-envelope pe-2 mb-0 "
+                                    style="color:rgb(236, 175, 8)"></i>contact@example.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
             </div>
-            <!-- Grid container -->
-        </footer>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    </footer>
         <!-- footer end -->
 
     </main>
