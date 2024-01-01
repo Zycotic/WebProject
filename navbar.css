@@ -4,6 +4,58 @@
     background-color: rgb(255, 255, 255);
 }
 
+.nvbtn {
+    background: transparent;
+    position: relative;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgba(19, 19, 123, 0.8);
+    border-radius: 250px;
+    outline: none;
+    overflow: hidden;
+    color: rgba(19, 19, 123, 0.8);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+}
+
+.nvbtn span {
+    margin: 10px;
+    z-index: 2;
+}
+
+.nvbtn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: rgba(19, 19, 123, 0.8);
+    /* Adjust color and transparency */
+    width: 0;
+    height: 0;
+    transition: width 0.5s ease-out, height 0.5s ease-out;
+    pointer-events: none;
+    z-index: 1;
+    /* Ensures clicks go through to the button */
+}
+
+.nvbtn:hover {
+    color: #ffffff;
+    border: 1px solid rgba(19, 19, 123, 0.8);
+}
+
+.nvbtn:hover::before {
+    width: 200%;
+    /* Adjust the width and height to create the expanding effect */
+    height: 200%;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -43,15 +95,9 @@ nav ul li a:hover::after {
     left: 0;
 }
 
-
-
 .title {
     font-family: 'Russo One', sans-serif;
     letter-spacing: 2px;
-<<<<<<< HEAD
-=======
-    color: white;
->>>>>>> bc94285f51b5996bc109e06283a82454c5b2f4fb
 }
 
 @media (max-width:991px) {
