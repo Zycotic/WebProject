@@ -1,3 +1,7 @@
+<?php
+include_once('Connection.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -88,111 +92,55 @@
 
     <div class="container py-2">
         <div class="h1 text-center text-dark" id="pageHeaderTitle">Available Courses</div>
+        <?php
 
-        <article class="postcard light blue">
-            <a class="postcard__img_link" href="#">
-                <img class="postcard__img" src="images/Banner.jpg" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-                <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
-                <div class="postcard__subtitle small">
-                    <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mx-1"></i>Mon, May 25th 2020
-                    </time>
+        // Fetch all courses from the 'courses' table
+        $coursesDetails = array();
+        $sqlCourses = "SELECT * FROM course";
+        $resultCourses = mysqli_query($conn, $sqlCourses);
+
+        if (mysqli_num_rows($resultCourses) > 0) {
+            while ($rowCourses = mysqli_fetch_assoc($resultCourses)) {
+                // Store each course's details into an array
+                $courseInfo = array(
+                    'course_id' => $rowCourses['course_id'],
+                    'course_name' => $rowCourses['course_name'],
+                    'course_code' => $rowCourses['course_code'],
+                    'course_desc' => $rowCourses['course_desc'],
+                    'vid_path' => $rowCourses['vid_path'],
+                    'course_img' => $rowCourses['course_img']
+                );
+                // Add the course details array to the main array
+                $coursesDetails[] = $courseInfo;
+            }
+            // Store all course details array in session
+            $_SESSION['coursesDetails'] = $coursesDetails;
+
+        } else {
+            echo "No courses available!";
+        }
+        if (isset($_SESSION['coursesDetails'])) {
+            $coursesDetails = $_SESSION['coursesDetails'];
+            foreach ($coursesDetails as $course) {
+                echo "<article class='postcard light blue'>
+                <a class='postcard__img_link' href='#'>
+                    <img class='postcard__img' src='images/" . $course['course_img'] . " ' alt='Image Title' />
+                </a>
+                <div class='postcard__text t-dark'>
+                    <h1 class='postcard__title blue'><a href='#'>" . $course['course_name'] . "</a></h1>
+                    <div class='postcard__bar'></div>
+                    <div class='postcard__preview-txt'>" . $course['course_desc'] . "</div>
+                    <ul class='postcard__tagbox'>
+                        <li class='tag__item'><i class='fas fa-tag mx-1'></i>" . $course['course_code'] . "</li>
+                        <li class='tag__item play blue'>
+                            <a href='#'><i class='fas fa-play mx-1'></i>Play Now</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="postcard__bar"></div>
-                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-                    fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus
-                    nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam
-                    adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi,
-                    illum quos!</div>
-                <ul class="postcard__tagbox">
-                    <li class="tag__item"><i class="fas fa-tag mx-1"></i>Podcast</li>
-                    <li class="tag__item"><i class="fas fa-clock mx-1"></i>55 mins.</li>
-                    <li class="tag__item play blue">
-                        <a href="#"><i class="fas fa-play mx-1"></i>Play Episode</a>
-                    </li>
-                </ul>
-            </div>
-        </article>
-        <article class="postcard light red">
-            <a class="postcard__img_link" href="#">
-                <img class="postcard__img" src="images/Banner.jpg" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-                <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
-                <div class="postcard__subtitle small">
-                    <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mx-1"></i>Mon, May 25th 2020
-                    </time>
-                </div>
-                <div class="postcard__bar"></div>
-                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-                    fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus
-                    nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam
-                    adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi,
-                    illum quos!</div>
-                <ul class="postcard__tagbox">
-                    <li class="tag__item"><i class="fas fa-tag mx-1"></i>Podcast</li>
-                    <li class="tag__item"><i class="fas fa-clock mx-1"></i>55 mins.</li>
-                    <li class="tag__item play red">
-                        <a href="#"><i class="fas fa-play mx-1"></i>Play Episode</a>
-                    </li>
-                </ul>
-            </div>
-        </article>
-        <article class="postcard light green">
-            <a class="postcard__img_link" href="#">
-                <img class="postcard__img" src="images/Banner.jpg" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-                <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
-                <div class="postcard__subtitle small">
-                    <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mx-1"></i>Mon, May 25th 2020
-                    </time>
-                </div>
-                <div class="postcard__bar"></div>
-                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-                    fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus
-                    nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam
-                    adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi,
-                    illum quos!</div>
-                <ul class="postcard__tagbox">
-                    <li class="tag__item"><i class="fas fa-tag mx-1"></i>Podcast</li>
-                    <li class="tag__item"><i class="fas fa-clock mx-1"></i>55 mins.</li>
-                    <li class="tag__item play green">
-                        <a href="#"><i class="fas fa-play mx-1"></i>Play Episode</a>
-                    </li>
-                </ul>
-            </div>
-        </article>
-        <article class="postcard light yellow">
-            <a class="postcard__img_link" href="#">
-                <img class="postcard__img" src="images/Banner.jpg" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-                <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
-                <div class="postcard__subtitle small">
-                    <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mx-1"></i>Mon, May 25th 2020
-                    </time>
-                </div>
-                <div class="postcard__bar"></div>
-                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-                    fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus
-                    nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam
-                    adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi,
-                    illum quos!</div>
-                <ul class="postcard__tagbox">
-                    <li class="tag__item"><i class="fas fa-tag mx-1"></i>Podcast</li>
-                    <li class="tag__item"><i class="fas fa-clock mx-1"></i>55 mins.</li>
-                    <li class="tag__item play yellow">
-                        <a href="#"><i class="fas fa-play mx-1"></i>Play Episode</a>
-                    </li>
-                </ul>
-            </div>
-        </article>
+            </article>";
+            }
+        }
+        ?>
     </div>
     <!-- footer start -->
     <footer class="bg-dark text-center text-lg-start text-white shadow rounded-top-4">
