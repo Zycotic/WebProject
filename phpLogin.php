@@ -31,23 +31,12 @@ if (!$conn) {
 
             $_SESSION['courses'] = $courses;
         }
-        echo "Login success!<br>";
         $row = mysqli_fetch_assoc(mysqli_query($conn, $sql));
         $_SESSION['stu_Fname'] = $row['stu_Fname'];
         $_SESSION['stu_Lname'] = $row['stu_Lname'];
         $_SESSION['stu_email'] = $row['stu_email'];
         $_SESSION['stu_password'] = $row['stu_password'];
         header("location:index.php");
-        // echo 'Welcome ' . $_SESSION['stu_Fname'] . " " . $_SESSION['stu_Lname'] . " " . $_SESSION['stu_email'] . " " . $_SESSION['stu_password'];
-        // echo '<br>';
-        // if (mysqli_num_rows($result) > 0) {
-        //     echo 'Your courses are: ';
-        //     for ($i = 0; $i < count($courses); $i++) {
-        //         echo '<br>' . $_SESSION['courses'][$i];
-        //     }
-        // } else {
-        //     echo "You aren't registered in any courses!";
-        // }
     } else {
         echo "Incorrect credentials!";
     }

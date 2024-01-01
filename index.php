@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="team.css">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 14dd8b8322340defaff1d7c31ef1f3012e618166
 </head>
 
 <body class="data-mdb-smooth-scroll-init">
@@ -346,7 +349,10 @@
             </div>
         </div>
         <!-- counter section end -->
+<<<<<<< HEAD
         <!-- team start -->
+=======
+>>>>>>> 14dd8b8322340defaff1d7c31ef1f3012e618166
         <section style="height: 40vh;" class="d-flex justify-content-between p-4">
             <div class="container1 row">
                 <input type="radio" name="slider" id="item-1" checked>
@@ -400,7 +406,10 @@
                 </div>
             </div>
         </section>
+<<<<<<< HEAD
         <!-- team end -->
+=======
+>>>>>>> 14dd8b8322340defaff1d7c31ef1f3012e618166
         <!-- footer start -->
         <footer class="bg-dark text-center text-lg-start text-white shadow rounded-top-4">
             <!-- Grid container -->
