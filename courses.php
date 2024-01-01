@@ -133,7 +133,7 @@ include_once('Connection.php');
                     <ul class='postcard__tagbox'>
                         <li class='tag__item'><i class='fas fa-tag mx-1'></i>" . $course['course_code'] . "</li>
                         <li class='tag__item play blue'>
-                            <a href='#'><i class='fas fa-play mx-1'></i>Play Now</a>
+                            <a href='course.php?vid_path=videos/" . $course['vid_path'] . "'><i class='fas fa-play mx-1'></i>Play Now</a>
                         </li>
                     </ul>
                 </div>
