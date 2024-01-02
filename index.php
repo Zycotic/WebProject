@@ -195,7 +195,7 @@
                             <div class="col-3">
                                 <img src="./images/hero-images-grid.png" class="img-fluid rounded-4 shadow w-100">
                             </div>
-                            <div class="col align-content-start pt-3 shadow">
+                            <div class="col align-content-start pt-3">
                                 <h4 style="font-weight: 700;">The Arab Rally Competition</h4>
                                 <div class="row">
                                     <div class="col-1" style="width: 5vh;">
