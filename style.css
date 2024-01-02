@@ -109,6 +109,13 @@ button:hover {
   background: rgba(255, 255, 255, 0.15);
 }
 
+button:disabled {
+  background: #ccc; /* Change the background color for disabled state */
+  color: #666; /* Change the text color for disabled state */
+  border-color: #ccc; /* Change the border color for disabled state */
+  cursor: not-allowed; /* Change cursor to not-allowed for disabled state */
+}
+
 .register {
   text-align: center;
   margin-top: 30px;

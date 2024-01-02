@@ -14,7 +14,7 @@ else{
     $Email = $_POST['Email'];
     $Password = $_POST['Password'];
 
-    $sql = "INSERT INTO user (first_Name,last_Name,email,password) VALUES ('$FirstName','$LastName','$Email','$Password');";
+    $sql = "INSERT INTO student (stu_Fname,stu_Lname,stu_email,stu_password) VALUES ('$FirstName','$LastName','$Email','$Password');";
     if(mysqli_query($conn,$sql))
     {
         header("Location: login.html");
