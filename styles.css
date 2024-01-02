@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    min-width: 350px;
 }
 
 /* 
@@ -189,7 +190,9 @@ p {
 
 .about {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 4vh;
+    width: 320px ;
+    max-width:320px
 }
 
 
@@ -418,3 +421,14 @@ hr.rounded {
     background-size: cover;
     padding: 60px 0;
 } */
+
+
+@media screen and (min-width: 991px) {
+
+    /* Adjust the max-width as needed for your design */
+    .about {
+        width: 700px;
+        max-width: 2500px;
+            /* Adjust the font size as per your requirement */
+    }
+}

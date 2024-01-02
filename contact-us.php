@@ -161,9 +161,7 @@
                     </div>
 
 
-                    <p class="text-center text-white">Homless animal shelter The budgetary unit of the Capital City
-                        of
-                        Warsaw</p>
+                    <p class="text-center text-white">Online platform for learning and growth</p>
 
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
                         <li>
@@ -188,38 +186,33 @@
 
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4">Animals</h5>
+                    <h5 class="text-uppercase mb-4">Resources</h5>
 
                     <ul class="list-unstyled">
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>When your pet is
-                                missing</a>
+                            <a href="index.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Don't know where to start? Click Here!</a>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>Recently found</a>
+                            <a href="courses.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Popular courses</a>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>How to adopt?</a>
+                            <a href="phpSignUp.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Sign up to get access to a wealth of knowledge!</a>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>Pets for adoption</a>
+                            <a href="https://www.libgen.is/" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Additional resources</a>
+                        </li>
+        
+                        <li class="mb-2">
+                            <a href="https://stackoverflow.com/" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Help with errors</a>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>Material gifts</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>Help with walks</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>Volunteer
-                                activities</a>
+                            <a href="https://www.kaggle.com/" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Datasets</a>
                         </li>
                     </ul>
                 </div>
@@ -227,35 +220,32 @@
 
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4">Animals</h5>
+                    <h5 class="text-uppercase mb-4">Contacts</h5>
 
                     <ul class="list-unstyled">
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>General
-                                information</a>
+                            <a href="index.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Legal</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>About Byte Tutorial</a>
                         </li>
                         <li class="mb-2">
                             <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>About the
-                                shelter</a>
+                                    style="color:rgb(236, 175, 8)"></i>Stats for nerds</a>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>Statistic
-                                data</a>
+                            <a href="phpSignUp.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Want to work with us? Click here!</a>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>Job</a>
+                            <a href="https://www.buymeacoffee.com/" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Buy us a coffee!</a>
                         </li>
                         <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>Tenders</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#!" class="text-white"><i class="fas fa-chevron-right pe-3"
-                                    style="color:rgb(236, 175, 8)"></i>Contact</a>
+                            <a href="contact-us.php" class="text-white"><i class="fas fa-chevron-right pe-3"
+                                    style="color:rgb(236, 175, 8)"></i>Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -263,7 +253,7 @@
 
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4">Contact</h5>
+                    <h5 class="text-uppercase mb-4">Find us!</h5>
 
                     <ul class="list-unstyled">
                         <li>

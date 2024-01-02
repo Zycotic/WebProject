@@ -13,30 +13,20 @@ if (!$conn) {
 
     $sql = "SELECT * FROM student WHERE stu_email = '$Email' And stu_password = '$Password';";
 
-    $sql1 = "SELECT course.course_name
-            FROM course
-            JOIN student_course ON course.course_id = student_course.course_id
-            JOIN student ON student.stu_id = student_course.stu_id
-            WHERE student.stu_email = '$Email';";
-
-    $result = mysqli_query($conn, $sql1);
-
+    
     if (mysqli_num_rows(mysqli_query($conn, $sql)) == 1) {
-        if (mysqli_num_rows($result) > 0) {
-            $courses = array();
-
-            while ($row = mysqli_fetch_assoc($result)) {
-                $courses[] = $row['course_name'];
-            }
-
-            $_SESSION['courses'] = $courses;
-        }
         $row = mysqli_fetch_assoc(mysqli_query($conn, $sql));
         $_SESSION['stu_Fname'] = $row['stu_Fname'];
         $_SESSION['stu_Lname'] = $row['stu_Lname'];
         $_SESSION['stu_email'] = $row['stu_email'];
         $_SESSION['stu_password'] = $row['stu_password'];
-        header("location:index.php");
+        if($row['stu_email'] == "Admin@gmail.com" && $row['stu_password'] == "Admin100@")
+        {
+            header("location:admin.html");
+        }
+        else{
+            header("location:index.php");
+        }
     } else {
         echo "Incorrect credentials!";
     }
