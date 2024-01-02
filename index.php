@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Data Analysis, Data Science, Web Development, Online Courses, Programming, Python, Machine Learning, Frontend Development, Backend Development, JavaScript, SQL, Full Stack Development, Data Visualization, Statistical Analysis, R Programming, HTML, CSS, UX/UI Design, Artificial Intelligence, Software Engineering, Big Data">
     <title>Byte Tutorial</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -90,7 +91,7 @@
     <!-- navbar end -->
     <main style="background: rgba(35, 4, 177, 0.05);">
         <!-- hero start -->
-        <div class="hero-section px">
+        <div class="hero-section">
             <div class="hero-text">
                 <h1>
                     <span>We can help your Child, Career,<br> Company</span>
@@ -114,11 +115,11 @@
         <!-- hero end -->
         <!-- about start -->
         <section class="intro-section" id="about">
-            <div class="container">
-                <div class="row justify-content-lg-center align-items-center">
+            
+                <div class="row justify-content-lg-center align-items-center shadow">
 
-                    <div class="col-lg-6">
-                        <h2 class="about mb-3 mt-4">ABOUT US</h2>
+                    <div class="col-lg-6 p-5">
+                        <h2 class="about mb-3 mt-4" >ABOUT US</h2>
                         <!-- divider start -->
                         <div class="row justify-content-between" style="width: 33vh;">
                             <hr class="rounded">
@@ -130,9 +131,10 @@
                             and we are committed to providing them with the best possible learning experience.</p>
                         <p> We have provided a training for students in 15+ universities, 5+ Schools, along with
                             graduates in 8 different majors, followed up with our mentoring & consulting sessions.</p>
-                        <a class="btn2 smoothscroll" href="#services-section">
-                            <span>Explore Services</span>
-                        </a>
+                        
+                            <a class="btn2 smoothscroll" href="#services-section">
+                                <span>Explore Services</span>
+                            </a>
                     </div>
 
                     <div class="col-lg-6 " style="padding-left: 70px; width: 35em; ">
@@ -140,7 +142,7 @@
 
                     </div>
                 </div>
-            </div>
+            
 
         </section>
         <!-- about end -->
@@ -153,7 +155,7 @@
 
                         <div class="row justify-content-between p-2 px-1">
                             <div class="col">
-                                <h2 style="font-size:7vh; font-weight: bold;">Events</h2>
+                                <h2 style="font-size:700; font-weight: bold;">Events</h2>
                             </div>
                             <div class="col text-end pt-2 px-3">
                                 <a href="#" class="gold-line-button">All Events</a>
@@ -193,7 +195,7 @@
                             <div class="col-3">
                                 <img src="./images/hero-images-grid.png" class="img-fluid rounded-4 shadow w-100">
                             </div>
-                            <div class="col align-content-start pt-3">
+                            <div class="col align-content-start pt-3 shadow">
                                 <h4 style="font-weight: 700;">The Arab Rally Competition</h4>
                                 <div class="row">
                                     <div class="col-1" style="width: 5vh;">
@@ -220,9 +222,9 @@
                         <div>
                             <div class="row justify-content-between p-2 px-1">
                                 <div class="col">
-                                    <h2 style="font-size:7vh; font-weight: bold;">News</h2>
+                                    <h2 style="font-size:700; font-weight: bold;">News</h2>
                                 </div>
-                                <div class="col text-end pt-2 px-4">
+                                <div class="col text-end pt-2 px-1">
                                     <a href="#" class="gold-line-button">All News</a>
                                 </div>
                             </div>
@@ -296,16 +298,14 @@
 
                     <div class="col-lg-6 px-3">
                         <p style="color:rgb(236, 175, 8);" class="fs-6">OUR KEY EVENTS</p>
-                        <h2 class="about mb-3 mt-1" style="width: 70vh;">Launching our Innovative Coding Bootcamp </h2>
+                        <h2 class="about mb-3 mt-1">Launching our Innovative Coding Bootcamp </h2>
                         <!-- divider start -->
-                        <div class="row justify-content-between" style="width: 72vh;">
+                        <div class="row justify-content-between" style="font-size: 1.1rem;">
                             <hr class="rounded">
                         </div>
                         <!-- divider end -->
-                        <p class="mt-3" style="width: 85vh;">Our curriculum is not just about teaching coding
+                        <p class="mt-3" style="font-size: 1.1rem;">Our curriculum is not just about teaching coding
                             languages; it's aholistic approach to empower aspiring developers with the practical skills
-                            and problem-solving
-                            mindset needed in the rapidly evolving tech landscape. The bootcamp incorporates the latest
                             industry trends, tools, and methodologies, ensuring that participants gain a competitive
                             edge in the field.
                         </p>
@@ -335,7 +335,7 @@
             <div class="counter">
                 <img src="./images/boy_student.png" class="img-fluid" style="height: 18vh;">
                 <h1 class="count" style="font-size: 5rem;" data-target="2172">0</h1>
-                <p>Boys Enrolled</p>
+                <p>Boys Enrolled</p>    
             </div>
             <div class="counter">
                 <img src="./images/girl_student.png" class="img-fluid" style="height: 18vh;">
@@ -347,7 +347,7 @@
             </div>
         </div>
         <!-- counter section end -->
-        <section style="height: 40vh;" class="d-flex justify-content-between p-4">
+        <section style="height: 40vh;" class="d-flex justify-content-center p-4">
             <div class="container1 row">
                 <input type="radio" name="slider" id="item-1" checked>
                 <input type="radio" name="slider" id="item-2">
@@ -368,7 +368,7 @@
                         <img src="images\Moharrum1.png" alt="song">
                     </label>
                 </div>
-                <div class="player px-5">
+                <!-- <div class="player px-5">
                     <div class="upper-part" style="height: 38px;">
                         <div class="info-area" id="test">
                             <label class="song-info" id="song-info-1">
@@ -397,7 +397,7 @@
                             </label>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- footer start -->

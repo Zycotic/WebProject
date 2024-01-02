@@ -110,10 +110,14 @@ button:hover {
 }
 
 button:disabled {
-  background: #ccc; /* Change the background color for disabled state */
-  color: #666; /* Change the text color for disabled state */
-  border-color: #ccc; /* Change the border color for disabled state */
-  cursor: not-allowed; /* Change cursor to not-allowed for disabled state */
+  background: #ccc;
+  /* Change the background color for disabled state */
+  color: #666;
+  /* Change the text color for disabled state */
+  border-color: #ccc;
+  /* Change the border color for disabled state */
+  cursor: not-allowed;
+  /* Change cursor to not-allowed for disabled state */
 }
 
 .register {
